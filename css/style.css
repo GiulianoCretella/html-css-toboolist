@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+}
+header img{
+    width: 70px;
+    vertical-align: middle;
+    margin: 10px 15px;
+}
+
+h1{
+    display: inline-block;
+    font-size: 50px;
+     vertical-align:middle;
+}
+
+main{
+    background-color: lightgrey;
+}
