@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
 }
+/* intestazione pagina */
+
 header{
     height: 100px;
     background-color: white;
@@ -21,6 +24,9 @@ h1{
 body{
     background-color: rgb(236, 236, 236);
 }
+
+/* button section */
+
 .buttons-container{
     height: 60px;
     width: 70%;
@@ -30,19 +36,6 @@ body{
     margin-bottom: 3px;
     border-radius:10px 10px 0 0;
     padding: 17px;
-}
-
-.lists-mega-container{
-    height: 800px;
-    width: 70%;
-    background-color: white;
-    margin: auto;
-    border-radius: 0 0 10px 10px;
-}
-
-.list-container{
-    padding: 40px 60px;
-
 }
 
 .add-task{
@@ -64,6 +57,21 @@ body{
     color: grey;
     font-size: 16px; 
 }
+
+/* list-section */
+
+.list-container{
+padding: 40px 60px 0px;
+}
+
+ .lists-mega-container{
+ height: 800px;
+ width: 70%;
+ background-color: white;
+ margin: auto;
+ border-radius: 0 0 10px 10px;
+ }
+
 .list-title{
     color: rgb(54, 53, 53);
     font-size: 25px;
@@ -72,6 +80,9 @@ body{
 ul{
     list-style-type: none;
 }
+li{
+    margin-bottom: 30px;
+}
 li span.green-tick{
     color: rgb(107, 206, 156);
     font-size: 15px;
@@ -79,6 +90,15 @@ li span.green-tick{
     border-radius: 60%;
     margin: 5px 5px;
     padding: 1px;
+}
+li span.red-cross{
+    color: red;
+    font-size: 15px;
+    border: 2px solid red;
+    border-radius: 60%;
+    margin: 5px 5px;
+    padding: 1px;
+
 }
 .li-text{
     font-size: 20px;
@@ -92,7 +112,30 @@ li span.box{
     width: 120px;
     height: 35px;
     border-radius: 15px;
-    background-color: #30b0eb;
     color: white;
     padding: 10px;
+}
+
+
+/* color-box */
+
+.orange{
+    background-color: orange;
+}
+
+.green{
+    background-color: rgb(107, 206, 156);;
+}
+.blue{
+    background-color: #30b0eb;
+}
+.purple{
+    background-color: #631ebe;
+}
+
+.lightpurple{
+    background-color: rgb(224, 99, 224);
+}
+.lightgreen{
+    background-color: rgb(171, 226, 171);
 }
