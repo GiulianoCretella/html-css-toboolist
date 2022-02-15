@@ -22,13 +22,14 @@ body{
     background-color: rgb(236, 236, 236);
 }
 .buttons-container{
-    height: 80px;
+    height: 60px;
     width: 70%;
     background-color: white;
     margin: auto;
     margin-top: 60px;
     margin-bottom: 3px;
     border-radius:10px 10px 0 0;
+    padding: 17px;
 }
 
 .list-container{
@@ -37,4 +38,24 @@ body{
     background-color: white;
     margin: auto;
     border-radius: 0 0 10px 10px;
+}
+
+.add-task{
+    width: 100px;
+    height: 35px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-left: 40px;
+    background-color:#30b0eb;
+    color: white;
+   }
+.add-section{
+    width: 120px;
+    height: 35px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: white;
+    color: grey;
+
+   
 }
