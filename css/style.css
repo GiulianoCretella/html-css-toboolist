@@ -18,7 +18,7 @@ header img{
 
 h1{
     display: inline-block;
-    font-size: 50px;
+    font-size: 60px;
      vertical-align:middle;
 }
 body{
@@ -89,20 +89,31 @@ li span.green-tick{
     border: 2px solid rgb(107, 206, 156);
     border-radius: 60%;
     margin: 5px 5px;
-    padding: 1px;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
 }
 li span.red-cross{
     color: red;
-    font-size: 15px;
+    font-size: 18px;
     border: 2px solid red;
     border-radius: 60%;
     margin: 5px 5px;
-    padding: 1px;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
 
 }
 .li-text{
     font-size: 20px;
     margin-left: 5px;
+    vertical-align: middle;
 }
 .arrow{
     font-size: 12px;
@@ -114,6 +125,8 @@ li span.box{
     border-radius: 15px;
     color: white;
     padding: 10px;
+    vertical-align: middle;
+
 }
 
 /* color-box */
